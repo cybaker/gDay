@@ -2,15 +2,16 @@ gDay
 ====
 
 Based on Google's Analog sample code, this gDay WatchFace takes a different approach to the
-5 second glance user experience. It's intended for Google Experiments 2016.
-gDay presents a 24 hour clock face, no minute or second hand. The circle is divided into 24 hours,
-midnight at the bottom and noon at the top. It plots your day's calendar
-events on an outer ring and two weather related indicators on two rings within the outer ring.
-At a glance, you can see busy times for the rest of the day and upcoming weather. Calendar
-and weather information for past time is not plotted as it's in the past.
-It's a gDay glance so you'll have a good day.
+5 second user experience. It's intended for Google Experiments 2016. See the screenshots!
 
-The red segment identifies the current time on the calendar. It sweeps through all the prior hours of the day. Those events are gone, so look forward to a good day ahead.
+gDay presents a 24 hour clock face, no minute or second hand. The face is divided into 24 hours,
+midnight at the bottom and noon at the top. Your day's calendar events appear on an outer ring 
+and two weather related indicators on two rings within.
+At a glance, you can see busy times for the rest of the day and upcoming weather. Calendar
+and weather information are wiped if they're in the past.
+It's a glance so you'll have a gDay.
+
+The red, long segment that looks like a minute hand identifies the current time on the circle.
 
 This includes a phone-side configuration app that allows for a manual weather fetch in
 addition to an hourly service to scrape the weather and push it to the watch through the
